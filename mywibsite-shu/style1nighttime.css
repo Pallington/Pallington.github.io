@@ -62,3 +62,12 @@ address {
 #ss3 {
     
 }
+.imageheader {
+    width:200px;
+}
+.image {
+    height:100px;
+    position:relative;
+    bottom:40px;
+    left:10px;
+}
