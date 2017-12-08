@@ -1,5 +1,8 @@
 body{
     background-color:rgb(200,200,200);
+    background-image:url("IMG_1349.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
 }
 h1 {
     color: rgb(200,150,40);
@@ -20,7 +23,7 @@ a {
     color:rgb(0,0,0);
 }
 #selfie01 {
-    height:400px;
+    width:60%;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -40,7 +43,10 @@ address {
 #Backgroundlayer1 {
     background-color: rgb(80,80,80);
     padding:10px;
-    margin:2px;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 .PPs {
     width:150px;
@@ -49,19 +55,18 @@ address {
     text-align: center;
 }
 .spaceships {
-    width: 180px;
+    width: 80%;
     padding-top:5px;
     position:absolute;
 }
-#ss1 {
-}
+#ss1 {}
 #ss2 {
-    left:334.25px;
-    top:365px;
+    left:58.20%;
+    top:440px;
 }
 #ss3 {
-    left:334.25px;
-    top:475px;
+    left:58.2%;
+    top:544px;
 }
 .imageheader {
     width:200px;
@@ -71,4 +76,11 @@ address {
     position:relative;
     bottom:40px;
     left:10px;
+}
+#porfolioTable {
+    alignment-baseline: central;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    text-align: center;
 }
